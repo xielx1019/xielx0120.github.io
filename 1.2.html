@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width , initial-scale=1">
+  <!-- 
+   增加上面这句，可以看到浏览器的DevTools面板的模拟移动设备状态的变化
+  -->
+  <style>
+    *{
+      margin: 10px;
+      text-align: center;
+    }
+    header{
+      border: 2px solid blue;
+      height: 15%;
+      font-size: 1.6em;
+    }
+    main{
+      border: 2px solid blue;
+      height: 70%;
+      font-size: 1.2em;
+      background-image: url(./CSS.jpg);
+      background-size: cover;
+    }
+    nav{
+      border: 2px solid blue;
+      height: 10%;
+      font-size: 1.2em;
+    }
+    footer{
+      border: 2px solid blue;
+      height: 5%;
+    }
+  </style>
+  <!--<link rel="stylesheet" href="myCSS.css" > 
+  <script src="myInit.js"> </script>-->
+  <title> "读好书、练思维、勤编程" </title>
+ </head> 
+ <body>
+  <header>
+	  <p id="book">
+      计算思维系列课程
+    </p> 
+  </header>
+  <nav>
+    <button>pre1</button>
+    <button>pre2</button>
+    <button>pre3</button>
+    <!--<p id ="chapter">
+     导航章节
+	  </p>-->
+  </nav>
+  <main id = 'main'>
+    <img  id = "bookFace"> 
+       
+  </main> 
+
+  <footer> 
+   <p id="statusInfo">
+     xielx 江西科技师范大学 2021--2025
+	 </p>
+  </footer> 
+
+ <script>
+    var UI = {};
+    UI.appWidth = window.innerWidth;
+    UI.appHeigth = window.innerHeight;
+    let baseFont = parseInt(UI.appWidth/20);
+    //字体大小、颜色可继承
+    document.body.style.fontSize = baseFont + "px";
+    //body高度设置为屏幕高度
+    document.body.style.height = UI.appHeigth + "px";
+ </script>
+ </body>
+</html>
