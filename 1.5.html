@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+   <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width , initial-scale=1">
+  <!-- 
+   增加这句后，可以看到浏览器的DevTools面板的模拟移动设备状态的变化
+  -->
+  <title>Welcome to myCTApp</title>
+  <link rel="stylesheet" type="text/css" href="key.css">
+</head> 
+<body >
+  <header>
+    <p id="book">
+      现代开源软件开发环境搭建的研究
+    </p>
+   </header>
+  <nav>
+   <button>向前</button>
+   <button>向后</button>
+   <button>其他</button>
+  </nav>
+ 
+
+   <main id="main">
+	<div id="bookface">
+      <p> 这是书的封面图<br>
+        在此对象范围拖动鼠标/滑动触屏<br>
+              拖动/滑动超过100像素，视为有效UI互动！</p> 
+      <p>通过参考文献系统的阐述了现代开源软件的历史和现状，从软件开发的角度，总结了现代开源软件的开发环境，创造性的搭建了适合个人习惯的开发环境。<br>
+        其中，主要用Linux命令行搭建软件操作系统环境，实现代码的版本控制，实现了代码编译器和系统操作命令行完美高效的运行，并通过修改操作系统的配置实现代码编译器，通过Git克隆获取GitHub的开源代码，实现在本地建立了个人的代码仓库以及对代码的快速修改和运行。<br></p>
+    </div>
+   </main>
+
+  <footer> 
+   
+	CopyRight xielx 江西科技师范大学 2024--2025
+
+  </footer> 
+  <div id="aid">
+    <p>用户键盘响应区</p>
+    <div id="outputText"></div>
+    <div id="keyStatus"></div>
+  </div>
+ <script  src="key.js"></script>
+ </body>
+</html>
