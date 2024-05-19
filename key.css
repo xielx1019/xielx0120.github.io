@@ -19,7 +19,7 @@
     font-size: 0.5em;  
     position: relative;
     /* background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255 255,255,0.1),url("/CSS.jpg")); */
-    background-image: url("/CSS.jpg"); 
+    background-image: url("/main/CSS.jpg"); 
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
